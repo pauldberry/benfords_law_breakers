@@ -14,11 +14,13 @@ library(reshape)
 library(RSocrata)
 
 # City payment data
-# 
-payment <- read.socrata('https://data.cityofchicago.org/Administration-Finance/Payments/s4vu-giwb')
-#payment <- read.csv('~/Google Drive/Grad school/Courses/City Lab/data_exploratory/Payments.csv',
-#                    header=T, stringsAsFactors = F)
-
+if(!file.exists('payment.Rda')) {
+  # Warning:  this takes a while
+  payment <- read.socrata('https://data.cityofchicago.org/Administration-Finance/Payments/s4vu-giwb')
+  save(payment, file='payment.Rda')
+} else {
+  load('payment.Rda')
+}
 
 table(payment$Check.Date)
 
@@ -157,9 +159,13 @@ payment.contract <- subset(payment.clean,
                        payment.clean$CONTRACT.NUMBER != 'DV') #Just contracts
 
 # City contract data
-# https://data.cityofchicago.org/Administration-Finance/Contracts/rsxa-ify5
-contract <- read.csv('~/Google Drive/Grad school/Courses/City Lab/data_exploratory/Contracts.csv',
-                     header=T, stringsAsFactors = F)
+if(!file.exists('contract.Rda')) {
+  # Warning:  this takes a while
+  contract <- read.socrata('https://data.cityofchicago.org/Administration-Finance/Contracts/rsxa-ify5')
+  save(contract, file='contract.Rda')
+} else {
+  load('contract.Rda')
+}
 
 cntrct <- merge(payment.contract, # Merge payments and contracts
                 contract[c(1:8,11:18)], 
