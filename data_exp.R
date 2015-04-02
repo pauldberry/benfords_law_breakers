@@ -11,11 +11,14 @@
 library(data.table)
 library(ggplot2)
 library(reshape)
+library(RSocrata)
 
 # City payment data
-# https://data.cityofchicago.org/Administration-Finance/Payments/s4vu-giwb
-payment <- read.csv('~/Google Drive/Grad school/Courses/City Lab/data_exploratory/Payments.csv',
-                    header=T, stringsAsFactors = F)
+# 
+payment <- read.socrata('https://data.cityofchicago.org/Administration-Finance/Payments/s4vu-giwb')
+#payment <- read.csv('~/Google Drive/Grad school/Courses/City Lab/data_exploratory/Payments.csv',
+#                    header=T, stringsAsFactors = F)
+
 
 table(payment$Check.Date)
 
