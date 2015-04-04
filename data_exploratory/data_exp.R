@@ -4,9 +4,12 @@
 #  Data exploration I                                                         #
 #  Coded by Scarlett Swerdlow                                                 #
 #  scarlettswerdlow@uchicago.edu                                              #
-#  April 1, 2015                                                              #
+#  April 3, 2015                                                              #
 #                                                                             #
 ###############################################################################
+
+# If you have not already installed the following packages, run
+# install.packages("<package name>") for each before sourcing code.
 
 library(data.table)
 library(ggplot2)
@@ -20,8 +23,10 @@ library(reshape)
 ##################
 
 # https://data.cityofchicago.org/Administration-Finance/Payments/s4vu-giwb
-payment <- read.csv('~/Google Drive/Grad school/Courses/City Lab/data_exploratory/Payments.csv',
-                    header=T, stringsAsFactors = F)
+
+# User must set working directory
+setwd("~/Google Drive/Grad school/Courses/City Lab/cl-fin-fraud/data_exploratory")
+payment <- read.csv('Payments.csv', header=T, stringsAsFactors = F)
 
 ################
 #  CLEAN DATA  #
@@ -207,8 +212,7 @@ num.date.plt.recent <- ggplot(num.pmt.by.day.plt, aes(x = Group.1, y = x)) +
 payment.contract <- subset(payment.sub, payment.sub$CONTRACT.NUMBER != 'DV')
 
 # https://data.cityofchicago.org/Administration-Finance/Contracts/rsxa-ify5
-contract <- read.csv('~/Google Drive/Grad school/Courses/City Lab/data_exploratory/Contracts.csv',
-                     header=T, stringsAsFactors = F)
+contract <- read.csv('Contracts.csv', header=T, stringsAsFactors = F)
 
 cntrct <- merge(payment.contract, # Merge payments and contracts
                 contract[c(1:8,11:18)], 
