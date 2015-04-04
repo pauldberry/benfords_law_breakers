@@ -177,7 +177,7 @@ tot.pmt.by.mo <- aggregate(pmt.recent$AMOUNT,
 # Plot: Total payments by year bar plot (contract and DV)
 tot.pmt.by.mo.plt <- ggplot(tot.pmt.by.mo, aes(x = Group.1, y = x)) + 
   geom_bar(stat = 'identity') +
-  ggtitle("Total payments by month, 2014-2015") +
+  ggtitle("Total payment amount by month, 2014-2015") +
   xlab("Month") +
   ylab("Amount")
 
@@ -191,12 +191,12 @@ pmt.by.day.plt <- ggplot(data = pmt.recent, aes(x = Day, y = AMOUNT)) +
   ylab("Amount")
 
 # Number of payments by day of month (contract and DV)
-num.pmt.by.day.plt <- aggregate(pmt.recent$CONTRACT.NUMBER, 
-                                list(pmt.recent$Day), 
-                                length)
+num.pmt.by.day <- aggregate(pmt.recent$CONTRACT.NUMBER, 
+                            list(pmt.recent$Day), 
+                            length)
 
 # Plot: Number of payments by date bar plot
-num.date.plt.recent <- ggplot(num.pmt.by.day.plt, aes(x = Group.1, y = x)) + 
+num.pmt.by.day.plt <- ggplot(num.pmt.by.day.plt, aes(x = Group.1, y = x)) + 
   geom_bar(stat = 'identity') +
   ggtitle("Number of payments by day of month, 2014-2015") +
   xlab("Date") +
