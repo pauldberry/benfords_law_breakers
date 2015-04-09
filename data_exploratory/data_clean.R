@@ -9,6 +9,7 @@
 ###############################################################################
 
 library(data.table)
+library(reshape)
 
 ##################
 #                #
@@ -27,7 +28,7 @@ payment <- fread('Payments.csv', header=T, stringsAsFactors = F)
 ################
 
 nrow(payment)
-length(unique(payment$vendor.name))
+length(unique(payment$"VENDOR NAME"))
 
 # Rename columns
 payment <- rename(payment, 
