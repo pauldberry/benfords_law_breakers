@@ -1,0 +1,2086 @@
+Python 2.7.8 (default, Aug 15 2014, 13:43:01) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 3.0.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+%guiref   -> A brief reference about the graphical user interface.
+
+In [1]: runfile('/Users/principledhomeostasis/citylab/cl-fin-fraud/bbbscrape/bbbscrape-a.py', wdir='/Users/principledhomeostasis/citylab/cl-fin-fraud/bbbscrape')
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>
+   LaSalle Partners Business Review in Dayton, OH - Dayton BBB
+  </title>
+  <meta content="IE=Edge" http-equiv="x-ua-compatible"/>
+  <meta content="LaSalle Partners review, LaSalle Partners business review, LaSalle Partners in Dayton, OH, LaSalle Partners reliability report" name="keywords"/>
+  <meta content="BBB's Business Review for LaSalle Partners, Business Reviews and Ratings for LaSalle Partners in Dayton, OH." name="description"/>
+  <link href="/dayton/images/2/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <!--  Javascript Includes -->
+  <script src="https://www.bbb.org/scripts/bundles/vendorscripts.js">
+  </script>
+  <script src="https://www.bbb.org/scripts/BBB/NoConflict.js">
+  </script>
+  <script>
+   jQuery.fn.superfish.defaults.delay = 100;
+  </script>
+  <script src="/dayton/scripts/core1.2.4.js?s=1412273757" type="text/javascript">
+  </script>
+  <script src="/dayton/scripts/more1.2.4.js?s=1412273757" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   window.addEvent('domready',function() {
+                        // remove bootstrap/jquery and mootools hide conflict
+                    Element.prototype.hide = function() {};
+                });
+  </script>
+  <script src="/dayton/scripts/cbbb-mt-compress.js?s=1412273757" type="text/javascript">
+  </script>
+  <script src="/dayton/scripts/base64.js?s=1412273757" type="text/javascript">
+  </script>
+  <script src="http://w.sharethis.com/button/buttons.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   stLight.options({publisher:'be7bda03-2cce-41b1-9125-df048ffa991d'});
+  </script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAK6dH8zBlXDyvFTf5pGMzOBTB6dn5vwiXP1Aq3GxtzhSipek1hxRg93wsPZt5DxolsokogkbPp4DvQQ" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   PageIsInEditMode = 'false';
+  </script>
+  <!-- Include Print CSS -->
+  <!-- link href="/dayton/styles/cbbb-print.css" rel="stylesheet" type="text/css" media="print" / -->
+  <!--          <link href="http://epi.bbb.org/css/bundles/bbbstyles.css" rel="stylesheet"/>-->
+  <link href="https://www.bbb.org/CSS/BBB/Condensed/small.css" media="all" rel="stylesheet" type="text/css"/>
+  <!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">@import url("https://www.bbb.org/CSS/BBB/Condensed/medium.css");
+@import url("https://www.bbb.org/CSS/BBB/Condensed/large.css");</style>
+<![endif]-->
+  <!--[if gte IE 9]><!-->
+  <style media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)" type="text/css">
+   @import url("https://www.bbb.org/CSS/BBB/Condensed/medium.css");
+  </style>
+  <!--<![endif]-->
+  <!--[if gte IE 9]><!-->
+  <style media="all and (min-width: 980px) and (min-device-width: 980px)" type="text/css">
+   @import url("https://www.bbb.org/CSS/BBB/Condensed/medium.css");
+@import url("https://www.bbb.org/CSS/BBB/Condensed/large.css");
+  </style>
+  <!--<![endif]-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://www.bbb.org/CSS/style.css" rel="stylesheet"/>
+  <style type="text/css">
+   #left {
+            line-height: normal;
+        }
+                #left h1 { margin: auto; top: auto; left: auto; position: inherit; }
+                .sub #global { width: 990px; }
+                #mainnav { width: 990px; }
+        .sf-menu ul{left:0px;top:34px;}
+                /*#mainnav ul.sf-menu li ul { top: 34px; visibility: hidden; z-index: 1000; left: 0px; }*/
+                .listingRightSide span {
+                        display: inline;
+                }
+                #left input.listingSearchGo {
+                        padding: 4px;
+                        background-color: #0d7c99;
+                        margin: 2px;
+                        padding-bottom: 3px;
+                        padding-left: 6px;
+                        padding-right: 6px;
+                        padding-top: 2px;
+                        text-align: center;
+                }
+        #left input.formbutton {
+            height: auto;
+        }
+                #left input[type=text] {
+                        background-color: #fff;
+                        margin: 0px;
+                        margin-bottom: 2px;
+                        margin-top: 2px;
+                        padding: 1px;
+                        height: 23px;
+                }
+                #left #top-abpages-banner {
+                        display: none;
+                }
+                #what-report-pop, #reporting-policy-pop {
+                        display: none;
+                }
+
+        footer ul li.copy {
+           display: block;
+           background: none;
+        }
+                #mainnav li { background-position: 0 3px; }
+                                #left input[type=button], #left input[type=submit], #left button, #left input[type=reset] {
+  background: #fafafa;
+  background-image: -webkit-linear-gradient(top, #fafafa, #f0f0f0);
+  background-image: -moz-linear-gradient(top, #fafafa, #f0f0f0);
+  background-image: -ms-linear-gradient(top, #fafafa, #f0f0f0);
+  background-image: -o-linear-gradient(top, #fafafa, #f0f0f0);
+  background-image: linear-gradient(to bottom, #fafafa, #f0f0f0);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #383838;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+        cursor: pointer;
+
+                }
+
+                #left input[type=button]:hover, #left input[type=submit]:hover, #left button:hover, #left input[type=reset]:hover {
+  background: #e0e0e0;
+  text-decoration: none;
+}
+  </style>
+  <link href="/dayton/images/2/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <!--  CSS Includes -->
+  <link href="/dayton/styles/cbbb-main-1.1.css?v=3" rel="stylesheet" type="text/css"/>
+  <link href="/dayton/styles/cbbb-custom-1.3.css?v=8" rel="stylesheet" type="text/css"/>
+  <!-- Include Print CSS -->
+  <link href="/dayton/styles/cbbb-print.css" media="print" rel="stylesheet" type="text/css"/>
+  <!--[if LT IE 7]>
+    <link rel="stylesheet" type="text/css" media="all" href="/dayton/styles/cbbb-main-ie.css" />
+
+    <![endif]-->
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" media="all" href="/dayton/styles/cbbb-main-ie7.css" />
+    <link rel="stylesheet" href="/dayton/styles/cbbb-print-ie7.css" type="text/css" media="print" />
+    <![endif]-->
+  <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" media="all" href="/dayton/styles/cbbb-main-ie8.css" />
+        <link rel="stylesheet" href="/dayton/styles/cbbb-print-ie8.css" type="text/css" media="print" />
+    <![endif]-->
+  <style type="text/css">
+   body.sub {
+        text-align: left;
+    }
+  </style>
+  <!--<script type='text/javascript'>
+var _vwo_code=(function(){ var account_id=69049, settings_tolerance=2000, library_tolerance=2500, use_existing_jquery=false, f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init(); 
+        </script>-->
+  <link href="http://www.bbb.org/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527" rel="canonical"/>
+  <meta content="AhP97umn0ZeLwoYz9x9ScfHcR2hmShz6F49Hq1f3Z38" name="google-site-verification"/>
+ </head>
+ <body class="sub non-accredited-report">
+  <div class="page-container" id="google_translate_element">
+   <!-- node2 -->
+   <input id="local-url" type="hidden" value="dayton.bbb.org"/>
+   <input id="local-bbbid" type="hidden" value="0322"/>
+   <input id="pa" type="hidden" value="aHRtbC9jb21tb24vcmVwb3J0Mi9pbmRleC5odG1s"/>
+   <input id="curr-url" type="hidden" value="aHR0cDovL3d3dy5iYmIub3JnL2RheXRvbi8%3D"/>
+   <input id="bbbid-js" type="hidden" value="0322"/>
+   <input id="setup5301" type="hidden" value="1090"/>
+   <input id="bbbvideocampaign" type="hidden" value=""/>
+   <style>
+    @media (max-width: 768px) 
+   {
+      .dark #globalnav_left a { color: #000000 !important; }
+      .dark #globalnav_right a { color: #000000 !important; }
+      .dark #bbb_name { color: #005A78 !important; text-shadow: 0 0 4px #FFFFFF !important; }
+      .dark #tagline {color: #005A78 !important;text-shadow: 0 0 4px #FFFFFF !important;}
+      .dark #choosestate a.choosestatelink {color: #005A78 !important;}
+   }
+   </style>
+   <script type="text/javascript">
+    var SharedGoogleAnalyticsID = "UA-41101326-21";
+    var GoogleAnalyticsID = "UA-41032507-27";
+    var Quantcast_Label = "Dayton, OH, External";
+   </script>
+   <noscript>
+    <div class="pop-up exact-match-table" id="modalMsg" style="display: block;width:45%; left:20%; top: 367px; border: 1px solid black;
+                    z-index: 99;">
+     For full functionality of this site it is necessary to enable JavaScript.
+ Here are the
+     <a href="http://www.enable-javascript.com/" target="_blank">
+      instructions how to enable JavaScript in your web browser
+     </a>
+     .
+    </div>
+    <div class="loadingcontainer" id="overlay">
+    </div>
+   </noscript>
+   <div id="location-hide" style="display:none;">
+   </div>
+   <div class="page-container ">
+    <header class="container">
+     <div class="row">
+      <div class="col-md-3 col-lg-3">
+       <h1>
+        <a class="logo" href="/dayton/">
+         Better Business Bureau. Start with Trust®
+        </a>
+       </h1>
+      </div>
+      <div class="col-md-9 col-lg-9 search-container">
+       <nav class="member-nav">
+        <ul>
+         <li>
+          <a href="/dayton/espanol/">
+           Español
+          </a>
+         </li>
+         <li>
+          <a href="https://dayton.app.bbb.org/abs/login.html?r=L2Ficw==">
+           Business Login
+          </a>
+         </li>
+         <li>
+          <a href="/dayton/news-events/">
+           News &amp; Events
+          </a>
+         </li>
+        </ul>
+       </nav>
+       <div class="location">
+        <a class="button-change-location button-tooltip" data-placement="left" data-target=".change-location-panel" data-toggle="modal" href="#" title="Click here to change your location">
+         Change Location
+        </a>
+        <h2>
+         <a class="button-tooltip" data-placement="left" data-target=".change-location-panel" data-toggle="modal" href="#" title="Click here to change your location">
+          Dayton and the Miami Valley
+         </a>
+        </h2>
+        <a class="button-change-location button-change-location-mobile button-tooltip" data-placement="left" data-target=".change-location-panel" data-toggle="modal" href="#" title="Click here to change your location">
+         Change Location
+        </a>
+       </div>
+       <div>
+        <section class="search-form">
+         <div class="button-close">
+          <span aria-hidden="true">
+           x
+          </span>
+          <span class="sr-only">
+           Close
+          </span>
+         </div>
+         <form action="https://www.bbb.org/dayton/accredited-business-directory/" class="form" id="header-search">
+          <div class="search-controls">
+           <label class="radio-inline" data-placement="right" data-toggle="tooltip" for="header-search-type-name">
+            <input checked="" id="header-search-type-name" name="type" type="radio" value="name"/>
+            Name
+           </label>
+           <label class="radio-inline" data-placement="right" data-toggle="tooltip" for="header-search-type-category">
+            <input id="header-search-type-category" name="type" type="radio" value="category"/>
+            Category
+           </label>
+           <a class="button-clear" href="#" id="clear-location">
+            Clear Location
+           </a>
+          </div>
+          <div class="search-boxes">
+           <input class="form-control input-lg box1" data-placeholder-abcat="BBB Accredited by Category" data-placeholder-abname="BBB Accredited by Name" data-placeholder-cat="Search by: Category " data-placeholder-name="Search by: Business Name, URL, Phone, Email" id="header-search-input" name="input" placeholder="BBB Accredited by Name" type="text"/>
+           <input class="form-control input-lg box2" id="header-search-location" name="location" placeholder="Enter a valid location" type="text"/>
+           <input id="header-search-tobid" name="tobid" type="hidden"/>
+           <button class="button-search" type="submit">
+            Search
+           </button>
+          </div>
+          <div class="search-controls search-filters">
+           <div class="search-tab dropdown first-tab" id="search-filter">
+            <span class="dropdown-label">
+             Filter:
+            </span>
+            <a class="dropdown-tab" data-toggle="dropdown" href="#">
+             Businesses
+            </a>
+            <ul class="dropdown-menu" role="menu">
+             <li>
+              <a data-value="all" href="#">
+               All
+              </a>
+             </li>
+             <li>
+              <a data-value="business" href="#">
+               Businesses
+              </a>
+             </li>
+             <li>
+              <a data-value="charity" href="#">
+               Charities
+              </a>
+             </li>
+             <li>
+              <a data-value="webpage" href="#">
+               News &amp; More
+              </a>
+             </li>
+            </ul>
+            <input id="header-search-filter" name="filter" type="hidden" value="business"/>
+           </div>
+           <div class="search-tab dropdown" id="search-source">
+            <span class="dropdown-label">
+             Source:
+            </span>
+            <a class="dropdown-tab" data-toggle="dropdown" href="#">
+             BBB Accredited Business Directory
+            </a>
+            <ul class="dropdown-menu" role="menu">
+             <li>
+              <a data-value="bbbse" href="#">
+               Site
+              </a>
+             </li>
+             <li>
+              <a data-value="bbbad" href="#">
+               BBB Accredited Business Directory
+              </a>
+             </li>
+            </ul>
+            <input id="header-search-source" name="source" type="hidden" value=""/>
+            <input id="default-header-search-source" name="default-source" type="hidden" value="bbbad"/>
+           </div>
+           <div class="search-tab search-tab-connected dropdown" id="search-radius">
+            <span class="dropdown-label">
+             Distance:
+            </span>
+            <a class="dropdown-tab" data-toggle="dropdown" href="#">
+             Off
+            </a>
+            <ul class="dropdown-menu" role="menu">
+             <li>
+              <a data-value="" href="#">
+               Off
+              </a>
+             </li>
+             <li>
+              <a data-value="8" href="#">
+               5 Miles
+              </a>
+             </li>
+             <li>
+              <a data-value="16" href="#">
+               10 Miles
+              </a>
+             </li>
+             <li>
+              <a data-value="40" href="#">
+               25 Miles
+              </a>
+             </li>
+             <li>
+              <a data-value="80" href="#">
+               50 Miles
+              </a>
+             </li>
+             <li>
+              <a data-value="160" href="#">
+               100 Miles
+              </a>
+             </li>
+            </ul>
+            <input id="header-search-radius" name="radius" type="hidden" value=""/>
+           </div>
+           <div class="search-tab" id="search-accredited">
+            <label class="search-label checkbox-inline button-tooltip" data-placement="bottom" data-toggle="tooltip" title="Search Only For BBB Accredited Businesses">
+             <input id="header-search-accredited" name="accredited" type="checkbox" value="accredited"/>
+             <span>
+              BBB Accredited Only
+             </span>
+            </label>
+           </div>
+           <div class="search-tab last-tab">
+            <a class="button-help button-tooltip" data-placement="left" data-toggle="tooltip" href="/dayton/search/search-faqs/" title="Frequently Asked Questions">
+             <span>
+              Help
+             </span>
+            </a>
+           </div>
+          </div>
+          <input id="header-search-url" type="hidden" value="/search/"/>
+          <input id="header-abd-url" type="hidden" value="http://www.bbb.org/dayton/accredited-business-directory/"/>
+          <input id="header-country" name="country" type="hidden" value="USA,CAN"/>
+          <input id="header-language" name="language" type="hidden" value="en"/>
+          <input id="header-codetype" name="codeType" type="hidden"/>
+         </form>
+        </section>
+       </div>
+      </div>
+      <!--div class="ad-area  col-lg-2">
+                <div class="ad-block">
+                    <strong>This could be promotional space.</strong><span class="small">(Currently 180 x 125)</span>
+                </div>
+            </div-->
+     </div>
+     <div class="row">
+      <div class="col-md-12">
+       <div class="mobile-nav-controls">
+        <ul>
+         <li class="btn_menu">
+          <div>
+           Menu
+          </div>
+         </li>
+         <li class="btn_search">
+          <div>
+           Search
+          </div>
+         </li>
+        </ul>
+       </div>
+       <nav class="main-nav">
+        <div class="button-close">
+         <span aria-hidden="true">
+          x
+         </span>
+         <span class="sr-only">
+          Close
+         </span>
+        </div>
+        <ul>
+         <li class="mobile-member-nav">
+          <ul>
+           <li>
+            <a href="/dayton/espanol/">
+             Español
+            </a>
+           </li>
+           <li>
+            <a href="https://dayton.app.bbb.org/abs/login.html?r=L2Ficw==">
+             Business Login
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/news-events/">
+             News &amp; Events
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/dayton/get-to-know-us/">
+           Get to Know Us
+          </a>
+          <button aria-controls="menu-563c7ad7-844a-4c44-962e-f2e7110975d2" aria-expanded="false" class="btn toggle-subnav" data-target="#menu-563c7ad7-844a-4c44-962e-f2e7110975d2" data-toggle="collapse" type="button">
+           &gt;
+          </button>
+          <ul class="collapse" id="menu-563c7ad7-844a-4c44-962e-f2e7110975d2">
+           <li>
+            <a href="/dayton/get-to-know-us/about-us/">
+             About
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-to-know-us/vision-mission-and-values/">
+             Mission &amp; Vision
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-to-know-us/frequently-asked-questions/">
+             FAQs
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-to-know-us/employment-opportunities/">
+             Employment Opportunities
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/dayton/get-involved/">
+           Get Involved
+          </a>
+          <button aria-controls="menu-e14f6b5a-d890-4308-8d1c-ed772e2c797c" aria-expanded="false" class="btn toggle-subnav" data-target="#menu-e14f6b5a-d890-4308-8d1c-ed772e2c797c" data-toggle="collapse" type="button">
+           &gt;
+          </button>
+          <ul class="collapse" id="menu-e14f6b5a-d890-4308-8d1c-ed772e2c797c">
+           <li>
+            <a href="/dayton/get-involved/leadership-circle/">
+             Leadership Circle
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-involved/dispute-resolution-training/">
+             Become An Arbitrator
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-consumer-help/scam-source/scam-or-complaint/">
+             Report a Scam
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-involved/give-us-your-feedback/">
+             Give Us Your Feedback
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-involved/stay-connected-to-bbb/">
+             Stay Connected
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/dayton/get-consumer-help/">
+           Get Consumer Help
+          </a>
+          <button aria-controls="menu-32941686-f81f-426e-b73a-6968cc647b18" aria-expanded="false" class="btn toggle-subnav" data-target="#menu-32941686-f81f-426e-b73a-6968cc647b18" data-toggle="collapse" type="button">
+           &gt;
+          </button>
+          <ul class="collapse" id="menu-32941686-f81f-426e-b73a-6968cc647b18">
+           <li>
+            <a href="/dayton/link/ef57a9ffbed94e678c70e7c024302d98.aspx?id=321266">
+             BBB Business Reviews
+            </a>
+           </li>
+           <li>
+            <a href="https://www.bbb.org/consumer-complaints/file-a-complaint/get-started">
+             File a Complaint
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-consumer-help/tips/">
+             Tips
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/news-events/">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/tax-tips/" target="_top">
+             Tax &amp; Financial Tips
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/natural-disasters/" target="_top">
+             Storm Damage Tips
+            </a>
+           </li>
+           <li>
+            <a href="http://www.bbb.org/dayton/equote">
+             Request a Quote
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/get-consumer-help/scam-source/">
+             Scam Source
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/cpweek/">
+             Consumer Protection
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/dayton/programs-services/">
+           Programs &amp; Services
+          </a>
+          <button aria-controls="menu-50e227fc-fe8b-4718-a016-cc4388f643ec" aria-expanded="false" class="btn toggle-subnav" data-target="#menu-50e227fc-fe8b-4718-a016-cc4388f643ec" data-toggle="collapse" type="button">
+           &gt;
+          </button>
+          <ul class="collapse" id="menu-50e227fc-fe8b-4718-a016-cc4388f643ec">
+           <li>
+            <a href="/dayton/link/ef57a9ffbed94e678c70e7c024302d98.aspx?id=321266">
+             BBB Business Reviews
+            </a>
+           </li>
+           <li>
+            <a href="https://www.bbb.org/consumer-complaints/file-a-complaint/get-started">
+             File a Complaint
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/dispute-handling-and-resolution/bbb-auto-line/">
+             BBB AUTO LINE®
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/bbb-military-line/">
+             BBB Military Line®
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/dash-4-cash/">
+             Dash 4 Cash
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/dispute-handling-and-resolution/">
+             Dispute Resolution
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/eclipse-integrity-awards/">
+             Eclipse Integrity Awards
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/cbce/">
+             Center for Business and Consumer Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/wibn/">
+             Women in Business Networking - WiBN
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/secure-your-id-day/">
+             Secure Your ID Day
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/programs-services/advertising-review-council/">
+             Advertising Review Council
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="http://www.bbb.org/dayton/accreditation-application">
+           For Businesses
+          </a>
+          <button aria-controls="menu-2bfee789-0db7-4e13-8937-ecd2a2c2f5c9" aria-expanded="false" class="btn toggle-subnav" data-target="#menu-2bfee789-0db7-4e13-8937-ecd2a2c2f5c9" data-toggle="collapse" type="button">
+           &gt;
+          </button>
+          <ul class="collapse" id="menu-2bfee789-0db7-4e13-8937-ecd2a2c2f5c9">
+           <li>
+            <a href="/dayton/for-businesses/about-bbb-accreditation/">
+             Apply For Accreditation
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/for-businesses/about-bbb-accreditation/bbb-code-of-business-practices-bbb-accreditation-standards/">
+             Code of Business Practices
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/for-businesses/code-of-advertising/">
+             Code Of Advertising
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/for-businesses/about-bbb-accreditation/advertising-bbb-accreditation/">
+             Advertising BBB Accreditation
+            </a>
+           </li>
+           <li>
+            <a href="http://dayton.app.bbb.org/updatecompany">
+             Update Business Information
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/charities-donors/">
+             For Charities
+            </a>
+           </li>
+           <li>
+            <a href="/dayton/for-businesses/online-sponsorship-program/">
+             Online Programs
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </nav>
+      </div>
+     </div>
+     <!-- START CHANGE LOCATION MODAL -->
+     <div aria-hidden="true" aria-labelledby="change-location-heading" class="modal fade change-location-panel" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-sm">
+       <div class="modal-content">
+        <div class="modal-header">
+         <button class="close" data-dismiss="modal" type="button">
+          <span aria-hidden="true">
+           Ã
+          </span>
+          <span class="sr-only">
+           Close
+          </span>
+         </button>
+         <h4 class="modal-title" id="change-location-heading">
+          Change Your Location
+         </h4>
+        </div>
+        <div class="modal-body">
+         <p>
+          Please enter your City and State/Province OR Postal Code.
+         </p>
+         <form action="http://www.bbb.org/bbb-locator/" class="form" id="change-location-form" method="get">
+          <input class="form-control input-lg box1" id="change-location-input" name="locatorinput" placeholder="City, State or Zip" type="text"/>
+          <button class="button-search" type="submit">
+           Search
+          </button>
+          <select class="form-control" id="change-location-country" name="countryCode">
+           <option selected="" value="USA,CAN">
+            US and Canada
+           </option>
+           <option value="MEX">
+            Mexico
+           </option>
+          </select>
+          <input name="type" type="hidden" value="others"/>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- END CHANGE LOCATION MODAL -->
+    </header>
+   </div>
+   <!-- CACHED REQUEST HEADER API node2.app.hurdman.org -->
+   <div class="clearfix" id="container">
+    <div class="clearfix" id="containerinner" style="width: 960px; ">
+     <div class="noright " id="left" style="margin-top: 15px;">
+      <!-- cache 1117e48cf4000b5c1bfefb42a8515ce3 -->
+      <div id="right" style="float: right;">
+       <div class="box" id="language-text-selectors">
+        <script src="/dayton/scripts/cbbb-google-translate.js" type="text/javascript">
+        </script>
+        <div id="text-size">
+         <span>
+          Text Size
+         </span>
+         <a class="text-small" href="#" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+          small
+         </a>
+         <a class="text-med" href="#" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+          medium
+         </a>
+         <a class="text-large" href="#" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+          large
+         </a>
+        </div>
+       </div>
+      </div>
+      <div id="breadcrumbs-container" itemprop="breadcrumb" lang="30TPCERNY8c700b1eddb5ddc55b7ef4b9997eb747">
+       <a href="http://www.bbb.org/dayton">
+        Dayton and the Miami Valley BBB
+       </a>
+       &gt;
+       <a href="http://www.bbb.org/dayton/business-reviews">
+        Business Directory
+       </a>
+       &gt;
+       <a href="http://www.bbb.org/dayton/business-reviews/property-management">
+        Property Management
+       </a>
+       &gt; LaSalle Partners
+      </div>
+      <h2>
+       BBB Business Review
+      </h2>
+      <a href="#" id="what-report" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+       What is a BBB Business Review?
+      </a>
+      <div class="clear-block">
+      </div>
+      <div id="tabs" lang="912700116" style="width: auto;">
+       <a name="tabs">
+       </a>
+       <ul class="menu horizontal" style="width: auto;">
+        <li class="leaf first">
+         <a class="active" href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527" id="overview" lang="LS30TPCERNYbf9d6e74fa88d05b01953861ada290e7&amp;GAT3ZlcnZpZXcgVGFifkNsaWNr" title="Overview of LaSalle Partners">
+          overview
+         </a>
+        </li>
+        <li class="leaf last">
+         <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/complaints" id="complaints" lang="LS30TPCERNYa00692e2bea74020b2d6e573927023e2&amp;GAQ29tcGxhaW50cyBUYWJ+Q2xpY2s=" title="Complaints about LaSalle Partners">
+          complaints
+         </a>
+        </li>
+        <li class="leaf">
+         <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/customer-reviews" id="customer-reviews" lang="LS30TPCERNY81825dc68aafa9c0758e7cd5982ea199&amp;GAQ3VzdG9tZXIgUmV2aWV3cyBUYWJ+Q2xpY2s=" title="Customer Reviews for LaSalle Partners">
+          customer reviews
+         </a>
+        </li>
+       </ul>
+       <div class="clear-block">
+       </div>
+      </div>
+      <script type="text/javascript">
+       window.addEvent('domready', function() { if($('top-menu-claim')) $('top-menu-claim').set('html', "Edit LaSalle Partners (<i>Claim this Review</i>)" ).set( 'href', $('top-menu-claim').href + '?bid=14000527' );
+});
+      </script>
+      <div id="content-container" lang="30TPCERNY9187cad4061d98eca89e1ab8272c28e7" style="float: left;">
+       <div id="content-top" lang="912715904">
+       </div>
+       <div id="content-body">
+        <img height="1" onload="javascript:if(Cookie.read('businessreviewsurvey')!='no') { popupWindow=window.open('http://app.dayton.bbb.org/valuesurvey?noskin&amp;bid=14000527','popupWindow','menubar=no,width=430,height=360,toolbar=no,left='+(window.screenX+window.outerWidth-430)+',top='+(window.screenY)); Cookie.write('businessreviewsurvey','no'); }" src="http://reports.app.hurdman.org/images/popup.gif" width="1"/>
+        <span itemscope="" itemtype="http://schema.org/LocalBusiness">
+         <div class="container" id="business-detail-container">
+          <div id="business-detail">
+           <h3 class="accredited-since">
+            <strong>
+             This Business is not BBB Accredited
+            </strong>
+           </h3>
+           <div class="business-detail-text">
+            <h1 class="business-title" itemprop="name" style="position:relative;">
+             LaSalle Partners
+            </h1>
+            <p>
+             <span class="business-phone" itemprop="telephone">
+              Phone: (937) 495-3600
+             </span>
+             <span class="business-fax" itemprop="faxNumber">
+              Fax: (937) 495-3219
+             </span>
+             <span class="business-address" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+              <span itemprop="streetAddress">
+               10 W 2nd St,
+              </span>
+              <span itemprop="addressLocality">
+               Dayton
+              </span>
+              ,
+              <span itemprop="addressRegion">
+               OH
+              </span>
+              <span itemprop="postalCode">
+               45402
+              </span>
+             </span>
+             <span class="alert">
+              <a href="#" id="alert-link" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+               <span class="alert-x">
+                !
+               </span>
+               There is an alert for this business
+               <span class="alert-x">
+                !
+               </span>
+              </a>
+             </span>
+            </p>
+           </div>
+          </div>
+          <div class="clear-block">
+          </div>
+          <div id="business-rating">
+           <div id="accedited-rating">
+            <img alt="BBB® Non-Accredited NR Rating" src="http://www.bbb.org/dayton/images/2/CBBB-ratingbadges/cbbb-non-accred-no-rating.png" title="BBB® Non-Accredited NR Rating"/>
+           </div>
+           <div id="business-rating-text">
+            <span class="business-rating-scale">
+             <strong>
+              On a scale of A+ to F
+             </strong>
+            </span>
+            <span>
+             <a href="#reasonrating">
+              Reason for Rating
+             </a>
+            </span>
+            <span>
+             <a href="http://www.bbb.org/council/overview-of-bbb-grade/" lang="LS30TPCERNYae5d9db61f58abd876a5c01b547692e5">
+              BBB Ratings System Overview
+             </a>
+            </span>
+           </div>
+          </div>
+          <div class="clear-block">
+          </div>
+          <div id="business-share">
+           <div id="business-share-text">
+            <a class="share">
+             <span class="st_sharethis_custom" displaytext="Share">
+              <span class="icon">
+              </span>
+              Share
+             </span>
+            </a>
+            <a class="print" href="#" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+             <span class="icon">
+             </span>
+             Print
+            </a>
+            <span class="st_plusone_hcount" st_url="/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527" style="display: block; float: left; margin-left: 20px; padding-top: 5px;">
+            </span>
+            <span class="st_fblike_hcount" style="display: block; float: left; padding-top: 1px;">
+            </span>
+            <div id="print-dialog" title="Print the review">
+             <span class="close-win">
+              <a href="#">
+               X
+              </a>
+             </span>
+             <h4>
+              Print Options
+             </h4>
+             <p>
+              <strong>
+               <a class="print-this" href="#" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+                Print this page
+               </a>
+              </strong>
+             </p>
+             <p>
+              <strong>
+               <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/print" rel="nofollow" target="_blank">
+                Print all review pages
+               </a>
+              </strong>
+             </p>
+            </div>
+           </div>
+          </div>
+          <div class="clear-block">
+          </div>
+          <div id="review-disclaimer">
+           <p>
+            <em>
+             BBB Business Reviews may not be reproduced for sales or promotional purposes.
+            </em>
+           </p>
+          </div>
+          <div class="clear-block">
+          </div>
+         </div>
+         <div class="clear-block">
+         </div>
+         <a name="accreditation">
+         </a>
+         <div class="container" id="business-accreditation-container">
+          <div id="business-accreditation-content">
+           <h4>
+            BBB Accreditation
+           </h4>
+           <p>
+            LaSalle Partners is not BBB Accredited.
+           </p>
+           <p>
+            Businesses are under no obligation to seek BBB accreditation, and some businesses are not accredited because they have not sought BBB accreditation.
+           </p>
+           <p>
+            To be accredited by BBB, a business must apply for accreditation and BBB must determine that the business meets
+            <a href="http://www.bbb.org/dayton/for-businesses/about-bbb-accreditation/bbb-code-of-business-practices-bbb-accreditation-standards/" lang="LS30TPCERNY5b60c87311af50cf82720b237d8ef866">
+             BBB accreditation standards
+            </a>
+            , which include a commitment to make a good faith effort to resolve any consumer complaints. BBB Accredited Businesses must pay a fee for accreditation review/monitoring and for support of BBB services to the public.
+           </p>
+          </div>
+         </div>
+         <div class="clear-block">
+         </div>
+         <div class="container" id="reason-rating-container">
+          <div id="reason-rating-content">
+           <a name="reasonrating">
+           </a>
+           <h4>
+            Reason for Rating
+           </h4>
+           <p>
+            BBB rating is based on 13 factors.
+            <a href="http://www.bbb.org/council/overview-of-bbb-grade/" lang="LS30TPCERNYae5d9db61f58abd876a5c01b547692e5">
+             Get the details about the factors considered
+            </a>
+            .
+           </p>
+           <p>
+            This business has no rating because BBB has information indicating it is out of business.
+           </p>
+          </div>
+         </div>
+         <div class="clear-block">
+         </div>
+         <div class="container" id="customer-complaint-summary-container">
+          <h4 class="title">
+           Customer Complaints Summary
+          </h4>
+          <div id="complaint-sort-container">
+           0 complaints closed with BBB in last 3 years | 0 closed in last 12 months
+          </div>
+          <div class="clear-block">
+          </div>
+          <table class="complaint-table">
+           <tr>
+            <th>
+             Complaint Type
+            </th>
+            <th>
+             Total Closed Complaints
+            </th>
+           </tr>
+           <tr class="odd">
+            <td>
+             Advertising / Sales Issues
+            </td>
+            <td>
+             0
+            </td>
+           </tr>
+           <tr class="even">
+            <td>
+             Billing / Collection Issues
+            </td>
+            <td>
+             0
+            </td>
+           </tr>
+           <tr class="odd">
+            <td>
+             Problems with Product / Service
+            </td>
+            <td>
+             0
+            </td>
+           </tr>
+           <tr class="even">
+            <td>
+             Delivery Issues
+            </td>
+            <td>
+             0
+            </td>
+           </tr>
+           <tr class="odd">
+            <td>
+             Guarantee / Warranty Issues
+            </td>
+            <td>
+             0
+            </td>
+           </tr>
+           <tr class="totals">
+            <td>
+             Total Closed Complaints
+            </td>
+            <td>
+             <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/complaints" lang="LS30TPCERNYa00692e2bea74020b2d6e573927023e2">
+              0
+             </a>
+            </td>
+           </tr>
+          </table>
+          <p class="table-links">
+           <a class="complaint-defs" href="#complaint-defs" id="complaint-defs" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+            Definitions
+           </a>
+           |
+           <a class="complaint-process" href="#complaint-process" id="complaint-process" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+            BBB Complaint Process
+           </a>
+           |
+           <a href="http://www.bbb.org/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/file-a-complaint" lang="LS30TPCERNY5b60c87311af50cf82720b237d8ef866&amp;GARmlsZSBhIENvbXBsYWludDogUmV2aWV3IExpbmt+Q2xpY2s=">
+            File a Complaint
+           </a>
+          </p>
+         </div>
+         <div class="container" id="customer-complaint-summary-container">
+          <h4 class="title">
+           Customer Reviews Summary
+           <a href="http://www.bbb.org/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/customer-reviews?cacheit=y">
+            Read customer reviews
+           </a>
+          </h4>
+          <div id="complaint-sort-container" itemscope="" itemtype="http://schema.org/LocalBusiness">
+           <p>
+            0 Customer Reviews Customer Reviews on LaSalle Partners
+           </p>
+          </div>
+          <div class="clear-block">
+          </div>
+          <table class="complaint-table">
+           <tr>
+            <th>
+             Customer Experience
+            </th>
+            <th>
+             Total Customer Reviews
+            </th>
+           </tr>
+           <tr class="even">
+            <td>
+             Positive Experience
+            </td>
+            <td>
+            </td>
+           </tr>
+           <tr class="odd">
+            <td>
+             Neutral Experience
+            </td>
+            <td>
+            </td>
+           </tr>
+           <tr class="even">
+            <td>
+             Negative Experience
+            </td>
+            <td>
+            </td>
+           </tr>
+           <tr class="totals">
+            <td>
+             Total Customer Reviews
+            </td>
+            <td>
+             0 Customer Reviews
+            </td>
+           </tr>
+          </table>
+          <script type="text/javascript">
+           window.addEvent( 'domready', function(e) {   if( $('trustbtn-container') && $('trustbtn-num-customer-reviews') ) {   $('trustbtn-container').removeClass('no-customer-reviews');     $('trustbtn-num-customer-reviews').set('text','0 Customer Reviews');    }
+});
+          </script>
+          <p class="table-links">
+           <a href="http://www.bbb.org/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/customer-reviews?cacheit=y" lang="LS30TPCERNY81825dc68aafa9c0758e7cd5982ea199&amp;GAUmVhZCBDdXN0b21lciBSZXZpZXdzOiBPdmVydmlld35DbGljaw==">
+            Read Customer Reviews
+           </a>
+           |
+           <a href="http://www.bbb.org/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/add-review/choose" lang="LS30TPCERNY81825dc68aafa9c0758e7cd5982ea199&amp;GAU3VibWl0IGEgQ3VzdG9tZXIgUmV2aWV3OiBPdmVydmlld35DbGljaw==">
+            Submit a Customer Review
+           </a>
+           |
+           <a href="http://www.bbb.org/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/customer-reviews?bubble" id="btrendspop" lang="LS30TPCERNY81825dc68aafa9c0758e7cd5982ea199&amp;GAQ3VzdG9tZXIgUmV2aWV3cyBUcmVuZHM6IE92ZXJ2aWV3fkNsaWNr">
+            See Trends in Customer Reviews on LaSalle Partners
+           </a>
+          </p>
+         </div>
+         <div class="clear-block">
+         </div>
+         <div class="clear-block">
+         </div>
+         <div class="container" id="business-action-container">
+          <ul class="menu">
+           <li class="first" id="govt-action">
+            <a name="govtaction">
+            </a>
+            <h4 class="title">
+             Government Actions
+            </h4>
+            <p>
+             BBB knows of no government actions involving the marketplace conduct of LaSalle Partners.
+            </p>
+            <p>
+             <a class="what-is-govt" href="#what-is-govt" id="what-is-govt" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+              What government actions does BBB report on?
+             </a>
+            </p>
+           </li>
+           <li id="ad-review">
+            <a name="adreview">
+            </a>
+            <h4 class="title">
+             Advertising Review
+            </h4>
+            <p>
+             BBB has nothing to report concerning LaSalle Partners' advertising at this time.
+            </p>
+            <p>
+             <a class="what-ad-review" href="#what-ad-review" id="what-ad-review" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+              What is BBB Advertising Review?
+             </a>
+            </p>
+           </li>
+           <li id="oob">
+            <a name="oob">
+            </a>
+            <h4 class="title">
+             Out of Business
+            </h4>
+            <p>
+            </p>
+            <p>
+             According to information in the BBB files, it appears that the company is no longer in business. The phone numbers the BBB had for this company are disconnected, and directory assistance does not have a listing for this company. The BBB's mail to this company has been returned as undeliverable. If you have an unresolved dispute with this company you may wish to seek legal advice.
+            </p>
+           </li>
+          </ul>
+         </div>
+         <div class="clear-block">
+         </div>
+         <div class="clear-block">
+         </div>
+         <div class="container last" id="business-additional-info-container">
+          <h4 class="title">
+           Additional Information
+          </h4>
+          <a class="top-link" href="#page">
+           top
+          </a>
+          <div id="business-additional-info-text">
+           <span>
+            BBB file opened: 08/24/1994
+           </span>
+           <span>
+            Business started:
+            <span class="startdate" itemprop="foundingDate">
+             01/01/1930
+            </span>
+           </span>
+           <h5>
+            Contact Information
+           </h5>
+           <span class="employees" itemprop="employees">
+            <span itemscope="" itemtype="http://schema.org/Person">
+             Principal:
+             <span class="person" itemprop="name">
+              Mr. John F. Stegemoller Jr.
+             </span>
+             <span class="person" itemprop="jobTitle">
+              (Area Manager)
+             </span>
+            </span>
+           </span>
+           <h5>
+            Business Category
+           </h5>
+           <p>
+            Property Management
+           </p>
+           <h5>
+            Products &amp; Services
+           </h5>
+           <p>
+            This company offers commercial brokerage mgmt &amp; leasing.
+           </p>
+           <h5>
+            Alternate Business Names
+           </h5>
+           <span>
+            LaSalle Partners Management Services
+           </span>
+          </div>
+          <div class="clear-block">
+          </div>
+         </div>
+         <div class="clear-block">
+         </div>
+        </span>
+       </div>
+       <div class="clear-block">
+       </div>
+      </div>
+      <!--<div style="clear: both;"></div>-->
+      <div style="display:none">
+       <input id="3f297ec5cb23761153845668d6305d43" type="hidden" value="cHpmYmplRGx3eW5LM2IweFJHNnRyREM0TW5yRk1CcmJ1dmRta2hYdkhFVkZ0aTltQkx2SGRoUHNJVU5VdTQzWlE4czFSdm00VU5lV2tmQ3g0RDhXQ1E9PQ=="/>
+       <input id="8c700b1eddb5ddc55b7ef4b9997eb747" type="hidden" value="clVmQkI0MGVSTmFla1BYdWUvdTM2WVFRaG1mSHIvZFA1cWx4bDJnR1lzbWo1a3NDWHJleSsvT2VEVzMxMzRHWDhvVFliOXVYWkJGZ2p3UVRQajJldkliajdQVmh4eko2TXUzSjZuL3B2QUE9"/>
+       <input id="bf9d6e74fa88d05b01953861ada290e7" type="hidden" value="VVZOVHN2dWdrRnJHdFh0a1hseXU3Wi9lK1Uvb2JDWUV0NEdOUlhzZmxHYVNGUlVWbW94YnV3R3F3WGpYa1BCcmhzaHBEblN6MDFzYS9rU3FZZE56bkwwa0xoT3FsTndMU3hoMjVQMlBKVzg9"/>
+       <input id="a00692e2bea74020b2d6e573927023e2" type="hidden" value="d1NKbW5aT2VGRDhjaWZNN1NqbVpvWGxDUmJDNUQ2UkZhZ0JJYkg3SmhZUGJRMTdqckYvK3ZNVmpzcWcvL3NaNk9FMDhWNEQrR1JnNkttTDYwL29CdXZoRmhnRjZxaXh5REJkWWg1blBKZXM9"/>
+       <input id="81825dc68aafa9c0758e7cd5982ea199" type="hidden" value="T29FQTBubTl5ZXA3SUlxbCt6TlhFa2NmckJmSmdUKzNkUkw4WVlianFCOHE4U3o5MFhOWXVSTVBlWlE1MERybEVLVHJOY3RKYmlQcUJiV2k5Z3JFckxCZE1DNnZlbng0RzJGL28veFd2d0U9"/>
+       <input id="9187cad4061d98eca89e1ab8272c28e7" type="hidden" value="R1ZCMlJYQkpiM08xNlhiRy96OHludy9HV0F0aTBxVmEvakJydkRPejNYK1FMRHhOOXU5UmVZQjhCSUphMHM1ODU3NGJsUkRxU0phV3h4QmlQSTlMa2c9PQ%3D%3D"/>
+       <input id="ae5d9db61f58abd876a5c01b547692e5" type="hidden" value="c3AxalpuODFjVEtmVStzcDVMMnpJTFkyTmtJWkRYbTY0dGR5dUZtcmFpUDQxdGRVL2VWMkFzaUdaMExBampWUHlDRjFuUDZ0MnN4SDNDYTFsQlE5OVA1S1ZqeXcvbitxamxoM2Iwd1VsTmc9"/>
+       <input id="5b60c87311af50cf82720b237d8ef866" type="hidden" value="U3ZLVURJSzJadGdUQzRtQmwwWWltbWhFQW5GNUliVGNnVFl2c3oyQVdvcVdzK1NGV2c4Y0dFa0Nic0hINytobEpjWks0WjZSRnJZdHdvMlkvaGN0VFZwaTh2K1pMRjN3bFd5UWlJK1BndkU9"/>
+      </div>
+     </div>
+     <div id="right" style="float: right;">
+      <div id="additional-locations-win" rel="20TPCERNYLy9JQ3A4QXU4WlJMRlM4a0tReEJKWXhUc0ROVTVnbDNpK2NaM1Z0eUFuWno4NC9lMFNTMGc3Ym94aDBlQXVNWFFnTzA4N3ZwZTE5Y1hOdFJBRXc2SUZqMktxY0loMDkyejJRam1KR3RTM1k9">
+       <h5 class="win-header">
+        Locations
+        <span class="close-win">
+         <a href="#">
+          X
+         </a>
+        </span>
+       </h5>
+       <div>
+        <p class="win-header-count">
+         1 Locations
+        </p>
+        <div>
+         <ul id="locations">
+          <li class="location one non-accred">
+           <span class="icon">
+           </span>
+           <h3 class="title">
+            10 W 2nd St
+           </h3>
+           <p>
+            <span class="business-address">
+             Dayton, OH 45402
+            </span>
+            <span class="business-phone">
+             (937) 495-3600
+            </span>
+            <span class="email">
+             <a href="http://maps.google.com/maps?daddr=10 W 2nd St,%20Dayton,%20OH%2045402" lang="LS30TPCERNY98694e7fbd0af577cc8fd06b5bbdc3a5">
+              Directions
+             </a>
+            </span>
+           </p>
+          </li>
+         </ul>
+         <input id="98694e7fbd0af577cc8fd06b5bbdc3a5" type="hidden" value="UzNDSEJLQUt4OWdxTjV6Tld3bmNOYmMzaCtWT21FeHVuUlNBeFRhVGJqa1NwcDRBbllTWmpOVS90TzlrQlQ1RkpjeFcwZjBFVkJac1RBTmVCOEVHR2ZsUmJ0QWRnVDI3MFdaL0t4SW9zSU09"/>
+        </div>
+       </div>
+      </div>
+      <div class="container" id="industry-comparison-chart" name="icchart">
+       <h5 class="win-header">
+        Industry Comparison Chart
+        <span class="close-win">
+         <a href="#">
+          X
+         </a>
+        </span>
+       </h5>
+       <div class="container" id="icchart-container" lang="30TPCERNYeef3af8bb60d81e81ea4ccf32524c453">
+        <p>
+         The information in the table below represents an industry comparison of businesses which are of the same relative size. This is based on BBB's database of businesses located in Dayton and the Miami Valley. Businesses may engage in more than one type of business. The percent of time the business engages in a type of business is not accounted for. There is no known industry standard for the number of complaints a business can expect. The volume of business and number of transactions may have a bearing on the number of complaints received by BBB.
+        </p>
+        <div id="chart-header-container">
+         <div class="box" id="chart-selectors">
+          <form>
+           <div id="chart-wrapper">
+            <select id="chart-select" name="chart-select">
+             <option selected="" value="30TPCERNYeef3af8bb60d81e81ea4ccf32524c453">
+              Property Management
+             </option>
+            </select>
+           </div>
+          </form>
+         </div>
+        </div>
+        <table class="complaint-table" id="industry-comp-results" lang="load">
+         <tbody>
+          <tr>
+           <td>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <p>
+         <span class="thisbusiness">
+          *
+          <b>
+           LaSalle Partners
+          </b>
+          is in this range.
+         </span>
+        </p>
+       </div>
+      </div>
+      <div id="complaint-defs-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <h3>
+        Types of Complaints Handled by BBB
+       </h3>
+       <p>
+        BBB handles the following types of complaints between businesses and their customers so long as they are not, or have not been, litigated:
+       </p>
+       <ul>
+        <li>
+         Advertising or Sales
+        </li>
+        <li>
+         Billing or Collection
+        </li>
+        <li>
+         Problems with Products or Services
+        </li>
+        <li>
+         Delivery
+        </li>
+        <li>
+         Guarantee or Warranty
+        </li>
+       </ul>
+       <p>
+        We do not handle workplace disputes, discrimination claims or claims about the quality of health or legal services.
+       </p>
+      </div>
+      <div id="complaint-process-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <h3>
+        BBB Complaint Process
+       </h3>
+       <p>
+        Your complaint will be forwarded to the company within two business days. The company will be asked to respond within 14 days, and if a response is not received, a second request will be made. You will be notified of the company's response when we receive it (or notified that we received no response). Complaints are usually closed within 30 business days.
+       </p>
+      </div>
+      <div id="about-complaint-details-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <p>
+        BBB began including complaint response text in BBB Business Reviews on October 1, 2012. BBB reports the complaint response text for all reportable complaints against a business.
+       </p>
+      </div>
+      <div id="industry-tips-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <h3>
+        Industry Tips for Property Management
+       </h3>
+      </div>
+      <div id="what-ad-review-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <h3>
+        What is BBB Advertising Review?
+       </h3>
+       <p>
+        BBB promotes truth in advertising by contacting advertisers whose       claims conflict with the
+        <a href="http://dayton.bbb.org/bbb-accreditation-advertising-code/" lang="LS30TPCERNYae5d9db61f58abd876a5c01b547692e5">
+         BBB Code of Advertising
+        </a>
+        . These claims come to our      attention from our internal review of advertising, consumer complaints and      competitor challenges. BBB asks advertisers to prove their claims, change ads   to make offers more clear to consumers, and remove misleading or deceptive      statements.
+       </p>
+      </div>
+      <div id="what-is-govt-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <h3>
+        What government actions does BBB report on?
+       </h3>
+       <p>
+        BBB reports on known government actions that are relevant to the business's marketplace dealings with the public.
+       </p>
+      </div>
+      <div id="enhanced-services-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <h3>
+        About BBB Business Review Content and Services
+       </h3>
+       <p>
+        Some Better Business Bureaus offer additional content and services in BBB Business Reviews. The additional content and services are typically regional in nature or, in some cases, a new product or service that is being tested prior to a more general release. Not all enhanced content and services are available at all Better Business Bureaus.
+       </p>
+      </div>
+      <div id="recommend-review-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <p>
+        Thank you for your feedback.
+       </p>
+       <p>
+        <a class="newWindow" href="https://www.bbb.org/surveys/reviews-default/?BBBID=0322&amp;BusinessID=14000527" lang="LS30TPCERNYae5d9db61f58abd876a5c01b547692e5">
+         Help us improve by taking our survey
+        </a>
+        .
+       </p>
+      </div>
+      <div id="alert-pop">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <p>
+        According to information in the BBB files, it appears that the company is no longer in business. The phone numbers the BBB had for this company are disconnected, and directory assistance does not have a listing for this company. The BBB's mail to this company has been returned as undeliverable. If you have an unresolved dispute with this company you may wish to seek legal advice.
+       </p>
+      </div>
+      <div id="rating-star-popup">
+       <span class="close-win">
+        <a href="#">
+         X
+        </a>
+       </span>
+       <h3>
+        BBB Customer Review Rating plus BBB Rating Overview
+       </h3>
+       <br/>
+       BBB Customer Reviews Rating represents the customers opinions of the business. The Customer Review Rating is based on the number of positive, neutral and negative customer reviews posted that are calculated to produce a score.
+       <br/>
+       <br/>
+       <table class="ptbl" style="width: 100%;">
+        <tbody>
+         <tr style="font-weight: bold; background-color: #ffff00;">
+          <td style="width: 50%;">
+           Customer Review Experience
+          </td>
+          <td style="width: 50%;">
+           Value
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Positive Review
+          </td>
+          <td>
+           5 points per review
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Neutral Review
+          </td>
+          <td>
+           3 points per review
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Negative Review
+          </td>
+          <td>
+           1 point per review
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <br/>
+       BBB letter grades represent the BBB's opinion of the business. The BBB grade is based on BBB file information about the business. In some cases, a business' grade may be lowered if the BBB does not have sufficient information about the business despite BBB requests for that information from the business.
+       <br/>
+       <a href="http://www.bbb.org/council/overview-of-bbb-grade/" target="_blank">
+        Details
+       </a>
+       <br/>
+       <br/>
+       <table cellpadding="5" cellspacing="5" style="width: 100%;">
+        <tbody>
+         <tr>
+          <td style="width: 48%;">
+           BBB Letter Grade Scale
+           <br/>
+           <br/>
+           <table class="ptbl" style="width: 100%;">
+            <tbody>
+             <tr style="font-weight: bold; background-color: #ffff00;">
+              <td style="width: 50%;">
+               BBB Rating
+              </td>
+              <td style="width: 50%;">
+               Value
+              </td>
+             </tr>
+             <tr>
+              <td>
+               A+
+              </td>
+              <td>
+               5
+              </td>
+             </tr>
+             <tr>
+              <td>
+               A
+              </td>
+              <td>
+               4.66
+              </td>
+             </tr>
+             <tr>
+              <td>
+               A-
+              </td>
+              <td>
+               4.33
+              </td>
+             </tr>
+             <tr>
+              <td>
+               B+
+              </td>
+              <td>
+               4
+              </td>
+             </tr>
+             <tr>
+              <td>
+               B
+              </td>
+              <td>
+               3.66
+              </td>
+             </tr>
+             <tr>
+              <td>
+               B-
+              </td>
+              <td>
+               3.33
+              </td>
+             </tr>
+             <tr>
+              <td>
+               C+
+              </td>
+              <td>
+               3
+              </td>
+             </tr>
+             <tr>
+              <td>
+               C
+              </td>
+              <td>
+               2.66
+              </td>
+             </tr>
+             <tr>
+              <td>
+               C-
+              </td>
+              <td>
+               2.33
+              </td>
+             </tr>
+             <tr>
+              <td>
+               D+
+              </td>
+              <td>
+               2
+              </td>
+             </tr>
+             <tr>
+              <td>
+               D
+              </td>
+              <td>
+               1.66
+              </td>
+             </tr>
+             <tr>
+              <td>
+               D-
+              </td>
+              <td>
+               1.33
+              </td>
+             </tr>
+             <tr>
+              <td>
+               F
+              </td>
+              <td>
+               1
+              </td>
+             </tr>
+             <tr>
+              <td>
+               NR
+              </td>
+              <td>
+               -----
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </td>
+          <td style="width: 4%">
+          </td>
+          <td style="width: 48%;">
+           Star Rating scale
+           <br/>
+           <br/>
+           <table class="ptbl" style="width: 100%;">
+            <tbody>
+             <tr style="font-weight: bold; background-color: #ccc;">
+              <td style="width: 50%;">
+              </td>
+              <td style="width: 50%;">
+               Average Score
+              </td>
+             </tr>
+             <tr>
+              <td>
+               5 stars
+              </td>
+              <td>
+               5.00
+              </td>
+             </tr>
+             <tr>
+              <td>
+               4.5 stars
+              </td>
+              <td>
+               4.50-4.99
+              </td>
+             </tr>
+             <tr>
+              <td>
+               4 stars
+              </td>
+              <td>
+               4.00-4.49
+              </td>
+             </tr>
+             <tr>
+              <td>
+               3.5 stars
+              </td>
+              <td>
+               3.50-3.99
+              </td>
+             </tr>
+             <tr>
+              <td>
+               3 stars
+              </td>
+              <td>
+               3.00-3.49
+              </td>
+             </tr>
+             <tr>
+              <td>
+               2.5 stars
+              </td>
+              <td>
+               2.50-2.99
+              </td>
+             </tr>
+             <tr>
+              <td>
+               2 stars
+              </td>
+              <td>
+               2.00-2.49
+              </td>
+             </tr>
+             <tr>
+              <td>
+               1.5 stars
+              </td>
+              <td>
+               1.50-1.99
+              </td>
+             </tr>
+             <tr>
+              <td>
+               1 star
+              </td>
+              <td>
+               0-1.49
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <br/>
+       BBB Customer Review Rating plus BBB Rating is not a guarantee of a business' reliability or performance, and BBB recommends that consumers consider a business' BBB Rating and Customer Review Rating in addition to all other available information about the business. If the BBB Rating is NR then only Customer Reviews are used for the Star Rating.
+      </div>
+      <!--<div id="quote-box" class="box"><a href="#"><img src="images/FPO/eQuote-280x100.png" alt="eQuote" /></a></div> // quote-box -->
+      <div class="clear-block">
+      </div>
+      <div class="box" id="quick-links-box" style="margin-top: 0px;">
+       <label style="display:none">
+       </label>
+       <div class="box-text">
+        <h4>
+         Quick Links
+        </h4>
+        <ul class="menu">
+         <li class="leaf odd" lang="complaint">
+          <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/file-a-complaint" lang="LS30TPCERNY5b60c87311af50cf82720b237d8ef866&amp;GARmlsZSBhIENvbXBsYWludDogUmlnaHQgUmFpbH5DbGljaw==">
+           File A Complaint
+          </a>
+         </li>
+         <li class="leaf odd" lang="enhanced">
+          <a href="#" id="enhanced-services" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+           About Enhanced Services
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="box" id="related-searches-box">
+       <div class="box-text">
+        <h4>
+         CUSTOMER REVIEWS
+        </h4>
+        <p>
+         <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/customer-reviews?cacheit=y" lang="LS30TPCERNY81825dc68aafa9c0758e7cd5982ea199&amp;GAUmVhZCBDdXN0b21lciBSZXZpZXdzOiBSaWdodCBSYWlsfkNsaWNr">
+          Read Customer Reviews
+         </a>
+        </p>
+        <p>
+         <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/add-review/choose" lang="LS30TPCERNY81825dc68aafa9c0758e7cd5982ea199&amp;GAU3VibWl0IGEgQ3VzdG9tZXIgUmV2aWV3OiBSaWdodCBSYWlsfkNsaWNr">
+          Submit a Customer Review
+         </a>
+        </p>
+        <p>
+         <a href="/dayton/business-reviews/property-management/lasalle-partners-in-dayton-oh-14000527/customer-reviews?bubble" id="btrendspop" lang="LS30TPCERNY81825dc68aafa9c0758e7cd5982ea199&amp;GAQ3VzdG9tZXIgUmV2aWV3cyBUcmVuZHM6IFJpZ2h0IFJhaWx+Q2xpY2s=">
+          See trends in Customer Reviews for LaSalle Partners
+         </a>
+        </p>
+       </div>
+      </div>
+      <div class="box" id="related-searches-box">
+       <div class="box-text">
+        <h4>
+         Associated Searches
+        </h4>
+        <p>
+         <a href="http://dayton.bbb.org/find-business-reviews/type/60732-000/45402" lang="LS30TPCERNYae5d9db61f58abd876a5c01b547692e5&amp;GAQnVzaW5lc3MgUmV2aWV3fkZpbmQgTW9yZSBCdXNpbmVzc2VzOiBSaWdodCBSYWlsfkxhU2FsbGUgUGFydG5lcnM=">
+          Find more businesses offering similar services.
+         </a>
+        </p>
+       </div>
+      </div>
+      <div class="box" id="feedback-box">
+       <div class="box-text">
+        <h4>
+         Feedback
+        </h4>
+        <ul class="menu">
+         <li class="leaf first odd">
+          <div class="inner-border">
+           <h5>
+            RECOMMEND
+           </h5>
+           <p>
+            Would you recommend this review to others?
+           </p>
+           <p>
+            <strong>
+             Please Select:
+            </strong>
+            <a class="yes" href="http://www.bbb.org/surveys/reviews-y-n/thank-you/?BBBID=0322&amp;BusinessID=14000527&amp;IsHelpful=1" id="feedback-yes" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+             <span class="icon">
+             </span>
+             Yes
+            </a>
+            <a class="no" href="https://www.bbb.org/surveys/reviews-y-n/thank-you/?BBBID=0322&amp;BusinessID=14000527&amp;IsHelpful=0" id="feedback-no" lang="LS30TPCERNY3f297ec5cb23761153845668d6305d43">
+             <span class="icon">
+             </span>
+             No
+            </a>
+           </p>
+          </div>
+         </li>
+         <!--<li class="leaf even"><h5>Accuracy</h5><p>Was th information in this report useful?</p></li>-->
+         <li class="leaf even">
+          <h5>
+           Share with us
+          </h5>
+          <p>
+           To better assist you, please take our
+           <a class="newWindow" href="https://www.bbb.org/surveys/reviews-default/?BBBID=0322&amp;BusinessID=14000527" lang="LS30TPCERNYae5d9db61f58abd876a5c01b547692e5&amp;GAU3VydmV5OiBSaWdodCBSYWlsfkNsaWNr" rel="nofollow">
+            brief survey
+           </a>
+           about the format / readability of this review so that we may continually improve your experience.
+          </p>
+         </li>
+         <li class="leaf odd">
+          <div class="inner-border">
+           <h5>
+            Contact us
+           </h5>
+           <p>
+            Email us at
+            <a href="mailto:info@dayton.bbb.org?subject=LaSalle Partners%20(ID%2014000527)" lang="LS30TPCERNY5b60c87311af50cf82720b237d8ef866&amp;GAQ29udGFjdCBVczogUmlnaHQgUmFpbH5DbGljaw==">
+             info@dayton.bbb.org
+            </a>
+            with your questions, suggestions, and concerns.
+           </p>
+          </div>
+         </li>
+        </ul>
+       </div>
+       <input id="eef3af8bb60d81e81ea4ccf32524c453" type="hidden" value="VDRvSjg1RHNxMFVIZ3pjd0dKbmFKakc1a1VML2tzVzV0VmFIUHhQOEM4bVZlbXdPTzQxQVZBTHg3TlVuSmdMU0VkMUNSOU9SYmc5MVR2ZVN4QmdnNEpUSEJJYTVERHk4UTE4b0Q1bURaeE09"/>
+       <input id="ae5d9db61f58abd876a5c01b547692e5" type="hidden" value="VnR6T2YxeHdYMkwrRkNkWVpGZG5pckVibG1ManpjTGJtVGlscDdhVFpOOTc4aEVsRDVIdVBoZnZJaXdrM280UlcyUjRwRFo5TFJ1eDFWSlJLejdlK0lEVTYxOUJpamVhZGdobVZJZWY5UEU9"/>
+       <input id="5b60c87311af50cf82720b237d8ef866" type="hidden" value="UVFpNnFFTjI0NHhJU1lYd3g2ZHFFVFA3UVUwcHN5UkpEVGl5R3VpVU1QYXg0RjJWWjQrZ2liZkJYa2RZanovb3NNM2ltQTlGOHdyMWpRV0Y4Q2x1bXVmR1dpV2YwMVF3aWoxN3RjdEhHQVU9"/>
+       <input id="3f297ec5cb23761153845668d6305d43" type="hidden" value="ZHB2UUtFYm9PZzlkOXN2VlliS0RvbDdpT2pLM1ZFWWt5V0k5TUZ0QjR5c1duRkkwSUxUZnA0TjRvSFlkYjVaSEtzTElzUXNPWEFVZWJoNTE0Qmc3dkE9PQ=="/>
+       <input id="81825dc68aafa9c0758e7cd5982ea199" type="hidden" value="dU1XRzliV096K3I3THh2dCtxaW43WHhuTnVOdkw4ZVgrVWwzdDB3dFRFQUF5U2ZNZy9SNEdqUkFOeVNvNmNzZDRIQmJoc3duR0pxNXdZMU9MU2RtdEsraks0SDd1T09YVlJWTFdPN010akE9"/>
+      </div>
+     </div>
+     <!-- // right -->
+    </div>
+    <div class="clearfix" style="margin:0 auto;font-style:italic; width:990px;">
+     <p>
+      As a matter of policy, BBB does not endorse any product, service or business.
+     </p>
+     <p>
+      BBB Business Reviews are provided solely to assist you in exercising your own best judgment. Information in this BBB Business Review is believed reliable but not guaranteed as to accuracy.
+     </p>
+     <p>
+      BBB Business Reviews generally cover a three-year reporting period. BBB Business Reviews are subject to change at any time.
+     </p>
+    </div>
+   </div>
+   <div class="page-container">
+    <footer>
+     <div class="footer-content container">
+      <div class="row">
+       <div class="col-sm-2 col-md-1 col-lg-1">
+        <a class="logo" href="#">
+         Better Business Bureau®
+        </a>
+       </div>
+       <nav class="col-sm-3 col-md-3 col-lg-3">
+        <ul>
+         <li>
+          <a href="http://www.bbb.org/council/list-all-bbb-locations/">
+           BBB Directory
+          </a>
+         </li>
+         <li>
+          <a href="http://www.give.org/">
+           Give.org
+          </a>
+         </li>
+         <li>
+          <a href="http://www.bbb.org/council">
+           Council of Better Business Bureaus
+          </a>
+         </li>
+         <li>
+          <a href="/dayton/get-to-know-us/contact/">
+           Contact
+          </a>
+         </li>
+        </ul>
+       </nav>
+       <nav class="col-sm-3 col-md-3 col-lg-3">
+        <ul>
+         <li>
+          <a href="/dayton/get-to-know-us/terms-of-use/">
+           Terms of Use
+          </a>
+         </li>
+         <li>
+          <a href="/dayton/get-to-know-us/trademarks/">
+           Trademarks
+          </a>
+         </li>
+         <li>
+          <a href="/dayton/get-to-know-us/privacy-policy/">
+           Privacy Policy
+          </a>
+         </li>
+         <li>
+          <a href="/dayton/get-consumer-help/fight-phishing/">
+           Fight Phishing
+          </a>
+         </li>
+        </ul>
+       </nav>
+       <nav class="additional col-sm-4 col-md-5 col-lg-5">
+        <ul class="social-links">
+         <li>
+          <a class="facebook" href="https://www.facebook.com/pages/Better-Business-Bureau-Dayton-OH/61539956175" target="_blank">
+           Facebook
+          </a>
+         </li>
+         <li>
+          <a class="twitter" href="https://twitter.com/bbb2day" target="_blank">
+           Twitter
+          </a>
+         </li>
+         <li>
+          <a class="linkedin" href="http://www.linkedin.com/groups/BBB-Dayton-Miami-Valley-4145827?trk=my_groups-b-grp-v" target="_blank">
+           LinkedIn
+          </a>
+         </li>
+         <li>
+          <a class="youtube" href="http://www.youtube.com/user/BBB2Day" target="_blank">
+           YouTube
+          </a>
+         </li>
+        </ul>
+        <ul class="googletranslate">
+         <li>
+          <div class="skiptranslate goog-te-gadget" dir="ltr" style="">
+           <div class="goog-te-gadget-simple" id=":0.targetLanguage" style="white-space: nowrap;">
+           </div>
+          </div>
+         </li>
+        </ul>
+       </nav>
+      </div>
+      <div class="row">
+       <div class="legal col-md-12 col-lg-12">
+        © 2015 BBB of Dayton / Miami Valley
+       </div>
+      </div>
+     </div>
+     <noscript>
+      <img alt="" height="1" src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=rMugh1aMQV008t" style="display: none" width="1"/>
+      <div style="display: none;">
+       <img alt="Quantcast" border="0" height="1" src="/dayton/pixel.quantserve.com/pixel/p-b7r-30pp8U_ik.gif?labels=Dayton%2c+OH%2c+External" width="1"/>
+      </div>
+     </noscript>
+    </footer>
+   </div>
+   <!-- What is a BBB Business Review -->
+   <div id="what-report-pop">
+    <span class="close-win">
+     <a href="#">
+      X
+     </a>
+    </span>
+    <h3>
+     What is a BBB Business Review?
+    </h3>
+    <p>
+     We offer free reviews on businesses that include background, licensing, consumer experience and other information such as governmental actions that is known to BBB. These reviews are provided for businesses that are BBB accredited and also for businesses that are not BBB accredited.
+    </p>
+   </div>
+   <div id="reporting-policy-pop">
+    <span class="close-win">
+     <a href="#">
+      X
+     </a>
+    </span>
+    <h3>
+     BBB Reporting Policy
+    </h3>
+    <p>
+     As a matter of policy, BBB does not endorse any product, service or business.
+    </p>
+    <p>
+     BBB Business Reviews are provided solely to assist you in exercising your own best judgment. Information in this BBB Business Review is believed reliable but not guaranteed as to accuracy.
+    </p>
+    <p>
+     BBB Business Reviews generally cover a three-year reporting period. BBB Business Reviews are subject to change at any time.
+    </p>
+   </div>
+   <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+    try{
+var pageTracker = _gat._getTracker("UA-2724045-2"); 
+pageTracker._setDomainName(".bbb.org");
+pageTracker._setAllowHash(false);
+pageTracker._trackPageview();
+} catch(err) {}
+   </script>
+   <script type="text/javascript">
+    try{
+var pageTracker = _gat._getTracker("UA-2949218-1"); 
+pageTracker._setDomainName(".bbb.org");
+pageTracker._setAllowHash(false);
+pageTracker._trackPageview();
+} catch(err) {}
+   </script>
+   <script src="https://www.bbb.org/scripts/bundles/bbbtracking.js">
+   </script>
+   <!-- Bootstrap Start -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+   </script>
+   <!-- Bootstrap End -->
+  </div>
+ </body>
+</html>
+
+
+In [2]: 
