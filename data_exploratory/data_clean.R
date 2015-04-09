@@ -20,8 +20,8 @@ library(reshape)
 # https://data.cityofchicago.org/Administration-Finance/Payments/s4vu-giwb
 
 # User must set working directory
-setwd("~/Google Drive/Grad school/Courses/City Lab/cl-fin-fraud/data_exploratory")
-payment <- fread('Payments.csv', header=T, stringsAsFactors = F)
+setwd("~/Google Drive/Grad school/Courses/City Lab/benfords_law_breakers")
+payment <- fread('data_exploratory/Payments.csv', header=T, stringsAsFactors = F)
 
 ################
 #  CLEAN DATA  #
@@ -113,7 +113,7 @@ pmt.recent$month.year <- factor(pmt.recent$month.year,
 pmt.cntrct <- subset(pmt, pmt$pmt.type == "Contract")
 
 # https://data.cityofchicago.org/Administration-Finance/Contracts/rsxa-ify5
-contract <- fread('Contracts.csv', header=T, stringsAsFactors=F)
+contract <- fread('data_exploratory/Contracts.csv', header=T, stringsAsFactors=F)
 
 ################
 #  CLEAN DATA  #
