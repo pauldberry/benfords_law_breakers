@@ -1,4 +1,4 @@
-cl-fin-fraud:  City Lab Financial Fraud project
+Team Benford's Law Breakers: City Lab Financial Fraud project
 
 A project of the City Lab course at the Harris School of Public Policy
 
